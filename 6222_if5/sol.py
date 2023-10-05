@@ -13,7 +13,7 @@ if char.isalpha():
     else:
         result = char.lower()
 
-    print(f'{char}(ASCII : {ord{char}}) => {result}(ASCII : {ord{char}})')
+    print(f'{char}(ASCII: {ord(char)}) => {result}(ASCII: {ord(result)})')
 
 else:
     print(char)
