@@ -1,0 +1,21 @@
+def solution(strlist):
+
+    answer = []
+
+    for i in range(0, len(strlist)):
+        answer.append(len(strlist[i]))
+    
+    return answer
+
+
+# 2
+def solution(strlist):
+    return [len(str) for str in strlist]
+
+
+# 3
+def solution(strlist):
+    answer = list(map(len, strlist))
+    return answer
+
+ㅇ
